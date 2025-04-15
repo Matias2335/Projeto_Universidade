@@ -11,8 +11,6 @@
 
 ---
 
-## Questões
-
-![Fluxograma](img/fluxograma.png)
-
+## Questões:
+Questão 1
 ![Questão 1](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao1.png?raw=true)
