@@ -3,11 +3,11 @@
 ## Fluxograma
 
 **Schema/**  
-- [DDL+dropteste.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Schema/DDL%2Bdropteste.sql)  
-- [Insert.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Schema/Insert.sql)
+- [DDL+dropteste.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/DDL%2Bdropteste.sql)  
+- [Insert.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Insert.sql)
 
 **Queries/**  
-- [Questoes.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Queries/Questoes.sql)
+- [Questoes.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questoes.sql)
 
 ---
 
