@@ -111,7 +111,7 @@ where depart_nome ilike 'fisica' and total_credito <= 120
 
 --Quais são os cursos com créditos maiores que um determinado valor?
 
-SELECT titulo
+SELECT depart_nome,titulo
 FROM curso
 WHERE creditos >= 4
 
