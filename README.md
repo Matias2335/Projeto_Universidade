@@ -14,3 +14,5 @@
 ## Questões
 
 ![Fluxograma](img/fluxograma.png)
+
+![image](https://github.com/user-attachments/assets/887413d6-7a89-4920-8e58-028f50d4c10d)
