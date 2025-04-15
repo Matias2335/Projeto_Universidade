@@ -1,10 +1,16 @@
 # Projeto_Universidade
 
-<h2>Fluxograma</h1>
+## Fluxograma
 
-|<h4>----Schema/</h4>
-|          |--DDL+dropteste.sql
-|          |--Insert.sql
-|
-|--<h4>---Queries/</h4>
-|          |--Questoes.sql
+**Schema/**  
+- [DDL+dropteste.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Schema/DDL%2Bdropteste.sql)  
+- [Insert.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Schema/Insert.sql)
+
+**Queries/**  
+- [Questoes.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/Queries/Questoes.sql)
+
+---
+
+## Questões
+
+![Fluxograma](img/fluxograma.png)
