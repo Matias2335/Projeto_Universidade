@@ -1,116 +1,149 @@
-# 🎓 Projeto Universidade
+# 🎓 Projeto 1 - Banco de Dados para uma Universidade
 
-Um sistema completo de banco de dados universitário desenvolvido com **Supabase** e **PostgreSQL**.
+## 👥 Integrantes
 
----
-
-## 📁 Estrutura de Arquivos
-
-### 📂 Schema/
-- [`DDL+dropteste.sql`](https://github.com/Matias2335/Projeto_Universidade/blob/main/DDL%2Bdropteste.sql) – Criação das tabelas e comandos de reset (`DROP`).
-- [`Insert.sql`](https://github.com/Matias2335/Projeto_Universidade/blob/main/Insert.sql) – Inserção de dados nas tabelas.
-
-### 📂 Queries/
-- [`questoes.sql`](https://github.com/Matias2335/Projeto_Universidade/blob/main/questoes.sql) – Todas as queries SQL referentes às questões do projeto.
+- **Nome:** Fulano da Silva — **RA:** 1234567  
+- **Nome:** Ciclano Souza — **RA:** 7654321
 
 ---
 
-## 🧠 Sobre o Projeto
+## 📖 Descrição do Projeto
 
-Este projeto simula o banco de dados completo de uma universidade, modelado e estruturado com base em um **Modelo Entidade-Relacionamento (MER)**. A aplicação roda na plataforma **Supabase** com suporte ao **PostgreSQL**, e está acompanhada de várias consultas SQL (queries) com seus respectivos resultados visuais.
+Este projeto tem como objetivo desenvolver um sistema completo de banco de dados relacional para uma universidade. O sistema é capaz de armazenar e gerenciar informações sobre:
 
----
+- Alunos
+- Professores
+- Departamentos
+- Cursos
+- Disciplinas
+- Históricos escolares
+- Disciplinas lecionadas por professores
+- Trabalhos de Conclusão de Curso (TCCs) — com grupo de alunos e professor orientador
 
-## 🧩 Componentes do Projeto
-
-- `DDL+dropteste.sql`: Estrutura de criação de tabelas e limpeza do banco.
-- `Insert.sql`: População das tabelas com dados fictícios.
-- `questoes.sql`: Consultas SQL desenvolvidas para responder ao enunciado.
-- `MER.png`: Diagrama do Modelo Entidade-Relacionamento.
-- `Questao1.png` até `Questao15.png`: Resultados das queries realizadas.
-- `README.md`: Documentação do projeto.
-
----
-
-## 🚀 Como Executar o Projeto
-
-### ✅ Pré-requisitos:
-- Conta ativa no [Supabase](https://supabase.com/)
-- Acesso ao repositório deste projeto
-- Conhecimento básico em SQL
+Além do desenvolvimento da modelagem conceitual e lógica, foram implementadas consultas SQL para validar o funcionamento do sistema e responder questões propostas.
 
 ---
 
-### 🛠️ Passo a Passo:
+## 🧩 Entrega do Projeto
 
-1. **Crie um Projeto no Supabase**  
-   Acesse [https://app.supabase.com](https://app.supabase.com) e crie um novo projeto com as configurações padrão.
-
-2. **Abra o SQL Editor**  
-   Vá no menu lateral e clique em **SQL Editor**.
-
-3. **Execute os Scripts**
-   - Copie o conteúdo de `DDL+dropteste.sql` e cole no editor. Execute para criar as tabelas.
-   - Depois, cole e execute o conteúdo de `Insert.sql` para inserir os dados.
-
-4. **Verifique as Tabelas**  
-   Vá até a aba **Table Editor** para ver os dados inseridos.
-
-5. **Execute as Queries**
-   - Acesse `questoes.sql` e execute cada consulta.
-   - Compare os resultados com as imagens `Questao1.png` até `Questao15.png`.
-
----
-
-## 🧪 Resultados das Questões
-
-### Questão 1  
-![Questão 1](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao1.png?raw=true)
-
-### Questão 2  
-![Questão 2](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao2.png?raw=true)
-
-### Questão 3  
-![Questão 3](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao3.png?raw=true)
-
-### Questão 4  
-![Questão 4](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao4.png?raw=true)
-
-### Questão 5  
-![Questão 5](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao5.png?raw=true)
-
-### Questão 6  
-![Questão 6](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao6.png?raw=true)
-
-### Questão 7  
-![Questão 7](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao7.png?raw=true)
-
-### Questão 8  
-![Questão 8](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao8.png?raw=true)
-
-### Questão 9  
-![Questão 9](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao9.png?raw=true)
-
-### Questão 10  
-![Questão 10](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao10.png?raw=true)
-
-### Questão 11  
-![Questão 11](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao11.png?raw=true)
-
-### Questão 12  
-![Questão 12](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao12.png?raw=true)
-
-### Questão 13  
-![Questão 13](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao13.png?raw=true)
-
-### Questão 14  
-![Questão 14](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao14.png?raw=true)
-
-### Questão 15  
-![Questão 15](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao15.png?raw=true)
-
----
-
-## 🗺️ Modelo Entidade-Relacionamento (MER)
+### ✅ Modelo Entidade-Relacionamento (MER)
 
 ![MER](https://github.com/Matias2335/Projeto_Universidade/blob/main/MER.png?raw=true)
+
+---
+
+### ✅ Modelo Relacional (3FN)
+
+Arquivo incluído no repositório como `modelo_relacional.pdf` ou documentado conforme preferido pelo grupo.
+
+---
+
+### ✅ Código DDL
+
+O arquivo `DDL+dropteste.sql` contém toda a estrutura de criação das tabelas do banco de dados, com os devidos relacionamentos e integridade referencial, além de comandos `DROP` para reinicialização do ambiente.
+
+[🔗 Acesse aqui](https://github.com/Matias2335/Projeto_Universidade/blob/main/DDL%2Bdropteste.sql)
+
+---
+
+### ✅ Inserção de Dados Fictícios
+
+O script `Insert.sql` contém todos os dados gerados ficticiamente para popular o banco. Foram inseridos alunos, professores, cursos, departamentos, disciplinas, históricos, orientações e TCCs.
+
+[🔗 Acesse aqui](https://github.com/Matias2335/Projeto_Universidade/blob/main/Insert.sql)
+
+---
+
+### ✅ Validação de Consistência
+
+No script `Insert.sql`, foram seguidas as regras de consistência como:
+
+- Integridade referencial com `FOREIGN KEY`
+- Dados coerentes com os vínculos e relacionamentos (ex: histórico de disciplinas condizente com alunos e turmas existentes)
+- Checagem manual e via queries para duplicações, nulls indevidos e vínculos incorretos
+
+---
+
+## 🔍 Consultas SQL
+
+### ✅ 5 Consultas Obrigatórias
+
+#### 1️⃣ Histórico escolar com reprovação e aprovação posterior  
+![Questão 1](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao1.png?raw=true)
+
+#### 2️⃣ TCCs orientados por professor com nomes dos alunos  
+![Questão 2](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao2.png?raw=true)
+
+#### 3️⃣ Matrizes curriculares de dois cursos com disciplinas em comum  
+- Curso 1:  
+  ![Questão 3](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao3.png?raw=true)
+
+- Curso 2:  
+  ![Questão 4](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao4.png?raw=true)
+
+#### 4️⃣ Disciplinas cursadas por aluno com professores que lecionaram  
+![Questão 5](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao5.png?raw=true)
+
+#### 5️⃣ Chefes de departamento e coordenadores de curso  
+![Questão 6](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao6.png?raw=true)
+
+---
+
+### ✅ Outras 10 Consultas (escolhidas da lista de álgebra relacional)
+
+- Questão 7:  
+  ![Questão 7](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao7.png?raw=true)
+
+- Questão 8:  
+  ![Questão 8](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao8.png?raw=true)
+
+- Questão 9:  
+  ![Questão 9](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao9.png?raw=true)
+
+- Questão 10:  
+  ![Questão 10](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao10.png?raw=true)
+
+- Questão 11:  
+  ![Questão 11](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao11.png?raw=true)
+
+- Questão 12:  
+  ![Questão 12](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao12.png?raw=true)
+
+- Questão 13:  
+  ![Questão 13](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao13.png?raw=true)
+
+- Questão 14:  
+  ![Questão 14](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao14.png?raw=true)
+
+- Questão 15:  
+  ![Questão 15](https://github.com/Matias2335/Projeto_Universidade/blob/main/Questao15.png?raw=true)
+
+---
+
+## ▶️ Como Executar
+
+1. **Abra seu gerenciador de banco de dados**
+   - Pode ser qualquer ferramenta com suporte a SQL (ex: DBeaver, pgAdmin, ou Supabase).
+
+2. **Crie um novo banco de dados**
+
+3. **Execute o script de criação das tabelas**
+   - Arquivo: `DDL+dropteste.sql`
+
+4. **Insira os dados fictícios**
+   - Arquivo: `Insert.sql`
+
+5. **Execute as queries**
+   - Arquivo: `questoes.sql`
+
+6. **Valide os resultados**
+   - Compare com as imagens `Questao1.png` até `Questao15.png`
+
+---
+
+## 🧠 Considerações Finais
+
+O projeto foi desenvolvido para simular de forma fiel a complexidade dos sistemas de informação universitários, garantindo integridade, coerência e aplicando práticas de normalização em 3FN. As queries implementadas demonstram domínio em operações de álgebra relacional, joins, filtros e agrupamentos.
+
+---
+
