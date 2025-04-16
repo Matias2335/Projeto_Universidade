@@ -10,6 +10,53 @@
 - [Questoes.sql](https://github.com/Matias2335/Projeto_Universidade/blob/main/questoes.sql)
 
 ---
+# 📚 Sistema de Banco de Dados Universitário - Supabase
+
+Este projeto simula o banco de dados completo de uma universidade, utilizando a plataforma **Supabase** com **PostgreSQL**. Toda a estrutura relacional foi modelada, criada e preenchida com dados fictícios. Além disso, diversas **consultas SQL** foram implementadas e testadas com resultados disponíveis em imagens no repositório.
+
+---
+
+## 🧩 Estrutura do Projeto
+
+### Arquivos principais:
+- `DDL+dropteste.sql`: Criação completa das tabelas e comandos `DROP` para reiniciar o banco.
+- `Insert.sql`: Inserção de dados nas tabelas criadas.
+- `questoes.sql`: Contém as queries SQL referentes às perguntas do enunciado.
+- `MER.png`: Modelo Entidade-Relacionamento representando o banco.
+- `README.md`: Este documento com instruções e informações gerais.
+
+### Imagens:
+- `Questao1.png` até `Questao15.png`: Resultados visuais das consultas SQL realizadas, organizadas por questão.
+
+---
+
+## 🚀 Como Executar o Projeto
+
+### ✅ Pré-requisitos:
+- Conta no [Supabase](https://supabase.com/)
+- Acesso ao repositório deste projeto
+### ▶️ Passo a Passo:
+
+1. **Crie um Projeto no Supabase**  
+   - Acesse [https://app.supabase.com](https://app.supabase.com) e crie um novo projeto.
+
+2. **Acesse o SQL Editor do Supabase**  
+   - No painel lateral, clique em **SQL Editor**.
+
+3. **Crie o banco de dados**
+   - Copie e cole o conteúdo de `DDL+dropteste.sql` e execute.
+   - Em seguida, faça o mesmo com o `Insert.sql`.
+
+4. **Verifique os dados**  
+   - No menu lateral, vá em **Table Editor** para conferir se os dados foram inseridos corretamente.
+
+5. **Execute as queries das questões**
+   - Abra o arquivo `questoes.sql`.
+   - Copie cada uma das consultas e execute no SQL Editor.
+   - Compare o resultado com as imagens `Questao1.png` até `Questao15.png`.
+
+---
+****
 
 ## Questões:
 Questão 1
