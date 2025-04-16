@@ -3,7 +3,8 @@
 ## 👥 Integrantes
 
 - **Nome:** Guilherme Matias Rodrigues de Souza — **RA:** 22.122.071-8 
-- **Nome:** Ciclano Souza — **RA:** 7654321
+- **Nome:** Fernando Domingues — **RA:** 22.122.034-6
+- **Nome:** Felipe da Rocha Pinheiro — **RA:** 22.222.059-2
 
 ---
 
