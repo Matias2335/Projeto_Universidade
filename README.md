@@ -35,7 +35,8 @@ Além do desenvolvimento da modelagem conceitual e lógica, foram implementadas 
 
 ### ✅ Modelo Relacional (3FN)
 
-Arquivo incluído no repositório como `modelo_relacional.pdf` ou documentado conforme preferido pelo grupo.
+![MR](https://github.com/Matias2335/Projeto_Universidade/blob/main/MR.png?raw=true)
+
 
 ---
 
