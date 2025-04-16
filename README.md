@@ -54,13 +54,13 @@ O script `Insert.sql` contém todos os dados gerados ficticiamente para popular 
 
 ---
 
-### ✅ Validação de Consistência
+***✅ Queries SQL das Questões
 
-No script `Insert.sql`, foram seguidas as regras de consistência como:
+O arquivo questoes.sql contém a implementação de todas as queries exigidas pelo projeto. Inclui as 5 queries propostas no enunciado, além de 10 queries adicionais escolhidas a partir da lista de exercícios de álgebra relacional.
 
-- Integridade referencial com `FOREIGN KEY`
-- Dados coerentes com os vínculos e relacionamentos (ex: histórico de disciplinas condizente com alunos e turmas existentes)
-- Checagem manual e via queries para duplicações, nulls indevidos e vínculos incorretos
+Cada consulta foi testada e teve seu resultado registrado em imagens (Questao1.png até Questao15.png), disponíveis neste repositório.
+
+[🔗 Acesse aqui](https://github.com/Matias2335/Projeto_Universidade/blob/main/questoes.sql)
 
 ---
 
@@ -138,12 +138,6 @@ No script `Insert.sql`, foram seguidas as regras de consistência como:
 
 6. **Valide os resultados**
    - Compare com as imagens `Questao1.png` até `Questao15.png`
-
----
-
-## 🧠 Considerações Finais
-
-O projeto foi desenvolvido para simular de forma fiel a complexidade dos sistemas de informação universitários, garantindo integridade, coerência e aplicando práticas de normalização em 3FN. As queries implementadas demonstram domínio em operações de álgebra relacional, joins, filtros e agrupamentos.
 
 ---
 
