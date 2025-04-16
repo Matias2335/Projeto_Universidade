@@ -2,7 +2,7 @@
 
 ## 👥 Integrantes
 
-- **Nome:** Fulano da Silva — **RA:** 1234567  
+- **Nome:** Guilherme Matias Rodrigues de Souza — **RA:** 22.122.071-8 
 - **Nome:** Ciclano Souza — **RA:** 7654321
 
 ---
