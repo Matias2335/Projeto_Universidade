@@ -125,20 +125,20 @@ Cada consulta foi testada e teve seu resultado registrado em imagens (Questao1.p
 ## ▶️ Como Executar
 
 1. **Abra seu gerenciador de banco de dados**
-   - Pode ser qualquer ferramenta com suporte a SQL (ex: DBeaver, pgAdmin, ou Supabase).
+   - Banco de dados utilizando(Supabase).
 
 2. **Crie um novo banco de dados**
+   - criei um projeto novo 
+4. **Execute o script de criação das tabelas**
+   - Ir até a aba lateral SQL Editor e adicionar o arquivo: `DDL+dropteste.sql` 
 
-3. **Execute o script de criação das tabelas**
-   - Arquivo: `DDL+dropteste.sql`
+5. **Insira os dados fictícios**
+   - Repetir o processo do item anterior no arquivo: `Insert.sql`
 
-4. **Insira os dados fictícios**
-   - Arquivo: `Insert.sql`
+6. **Execute as queries**
+   - Para testar abra o arquivo: `questoes.sql` e execute exercicio por exercicio no SQL Editor 
 
-5. **Execute as queries**
-   - Arquivo: `questoes.sql`
-
-6. **Valide os resultados**
+7. **Valide os resultados**
    - Compare com as imagens `Questao1.png` até `Questao15.png`
 
 ---
